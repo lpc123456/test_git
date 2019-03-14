@@ -31,4 +31,12 @@ public class DeptController {
     }
 
 
+    @RequestMapping("toUpdate")
+    public void toUpdate(){
+
+
+        //这是去更新
+
+    }
+
 }

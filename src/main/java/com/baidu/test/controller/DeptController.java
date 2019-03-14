@@ -30,6 +30,15 @@ public class DeptController {
         return "你的Id为"+id;
     }
 
+
+    @RequestMapping("toUpdate")
+    public void toUpdate(){
+
+
+        //这是去更新
+
+    }
+
     @RequestMapping("update")
     public String update(){
         return "更新成功";

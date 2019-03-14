@@ -30,5 +30,8 @@ public class DeptController {
         return "你的Id为"+id;
     }
 
-
+    @RequestMapping("update")
+    public String update(){
+        return "更新成功";
+    }
 }

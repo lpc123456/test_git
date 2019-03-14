@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeptController {
 
 
+    //查询全部
     @RequestMapping("findList")
     public String hh(){
 
@@ -15,5 +16,13 @@ public class DeptController {
         return "哈哈哈";
     }
 
+    //查询全部2
+    @RequestMapping("findAll")
+    public  String findAll(){
+
+        //查询全部
+        return "又查询了全部";
+
+    }
 
 }
